@@ -52,7 +52,7 @@ const ContactUsForm: React.FC<ContactUsFormProps> = ({
 		try {
 			setIsLoading(true)
 			const response = await axios.post(
-				'https://melodious-bublanina-4a34de.netlify.app/submit',
+				'https://codex-server-8pec.onrender.com/submit',
 				data
 			)
 			if (response.status === 200) {
